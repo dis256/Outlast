@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://bpgo5jk8ahp30"]
 
-[ext_resource type="Script" uid="uid://wpidqpoegxqu" path="res://player.gd" id="1_4flbx"]
+[ext_resource type="Script" uid="uid://dc7ojr63geykb" path="res://player.gd" id="1_4flbx"]
 
 [sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_sh265"]
 size = Vector2(24, 24)
@@ -8,7 +8,7 @@ size = Vector2(24, 24)
 [sub_resource type="CircleShape2D" id="CircleShape2D_sh265"]
 radius = 12.0
 
-[node name="Player" type="CharacterBody2D" unique_id=1132312755]
+[node name="Player" type="CharacterBody2D" unique_id=2099040144 groups=["player"]]
 script = ExtResource("1_4flbx")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1519477]
